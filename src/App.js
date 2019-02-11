@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import HomepageLayout from './components/test'
-import './App.css';
+import Navbar from './components/Navbar';
+import SongFilters from './components/SongFilters';
+import Results from './components/Results';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <HomepageLayout />
+      <div>
+        <Navbar />
+        <SongFilters />
+        <Results />
       </div>
     );
   }
