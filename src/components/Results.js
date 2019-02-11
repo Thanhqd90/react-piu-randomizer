@@ -28,7 +28,7 @@ const Results = () => (
                 </Table.Row>
                 <Table.Row>
                     <Table.Cell>Difficulty</Table.Cell>
-                    <Table.Cell><Label as='a' color='orange' image>S23
+                    <Table.Cell><Label as='a' color='orange' image>S23`
                     </Label></Table.Cell>
                 </Table.Row>
                 <Table.Row>
